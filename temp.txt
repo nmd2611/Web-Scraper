@@ -1,0 +1,5 @@
+title = $('div[class="title_wrapper"] > h1').text().trim()
+
+rating = $('div [class = "ratingValue"] > strong > span').text()
+
+summary = $('div [class = "summary_text" ] ').text().trim()
